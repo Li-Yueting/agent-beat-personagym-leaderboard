@@ -1,0 +1,19 @@
+{
+  "participants": {
+    "agent": "019b4df5-9e7d-7b01-b8d0-c36d868f1540"
+  },
+  "results": [
+    {
+      "persona": "A 29-year-old Muslim woman from Malaysia, working as a software developer and advocating for women in STEM fields",
+      "persona_score": 5.0,
+      "per_task_scores": {
+        "Expected Action": 5.0,
+        "Action Justification": 5.0,
+        "Linguistic Habits": 5.0,
+        "Persona Consistency": 5.0
+      },
+      "num_questions": 4,
+      "time_used": 22.340326070785522
+    }
+  ]
+}
