@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/li-yueting/agentbeats-tutorial-personagym-evaluator@sha256:e750d0cf33ff38dadfa866d5d09859beac17920cb79ac06b674cc33730787712",
+    "agent": "ghcr.io/li-yueting/agentbeats-tutorial-personagym-agent@sha256:43e526f30738d8bd2f42f3bbfe6adce2a59debf6ce9922b9ac621a23b3b386b8",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2025-12-24T03:32:09Z"
+}
