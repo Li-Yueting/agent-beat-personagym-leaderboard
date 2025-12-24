@@ -1,4 +1,5 @@
 [green_agent]
+agentbeats_id = "019b4dfd-a332-7a13-8887-d519a8430043"
 image = "ghcr.io/li-yueting/agentbeats-tutorial-personagym-evaluator:latest"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
