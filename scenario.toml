@@ -1,16 +1,13 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+image = "ghcr.io/li-yueting/agentbeats-tutorial-personagym-evaluator:latest"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019b4df5-9e7d-7b01-b8d0-c36d868f1540"
+name = "agent"
+image = "ghcr.io/li-yueting/agentbeats-tutorial-personagym-agent:latest"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
-# Add your assessment config here
+domain = "airline"
+num_rounds = 3
